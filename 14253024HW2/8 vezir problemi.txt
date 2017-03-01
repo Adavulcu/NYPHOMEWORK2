@@ -1,0 +1,30 @@
+Nesne Yönelimli Programlama Ödev #2
+Bu ödevde 8 vezir bulmacasýný array (dizi) kullanarak çözmenizi istiyoruz. 8 Vezir
+Bulmacasý, 8x8'lik bir satranç tahtasýna 8 adet vezirin hiçbiri olaðan vezir
+hamleleriyle birbirini alamayacak biçimde yerleþtirmesi sorunudur. Her bir
+vezirin konumunun diðer bir vezire saldýrmasýna engel olmasý için hiçbir vezir
+baþka bir vezirle ayný satýra, ayný kolona ya da ayný köþegene yerleþtirilemez. 8
+Vezir Bulmacasý daha genel olan n Vezir Bulmacasý'nýn özel bir durumudur.
+Bir veziri boþ bir satranç tahtasýnýn herhangi bir karesine yerleþtirmek, diðer
+vezirleri bu kareyle ayný satýrdaki, ayný sütundaki ve ayný köþegendeki diðer
+karelere yerleþtirmeyi önleyecektir. Örneðin köþedeki karelerden herhangi birine
+bir vezir yerleþtirmek kendisiyle birlikte toplamda 22 karenin kullanýlamamasýna
+neden olmaktadýr. Aþaðýdaki örnekte vezirin sol üst köþe kareye yerleþtirilmesi
+durumunda kullanýlamayacak kareleri göstermektedir (kendisi de dahil).
+Programýn ilk aþamasýnda (pre-processing) yukarýda anlatýlan þekilde her kare
+için bu kareye vezir yerleþtirildiði takdirde toplamda kaç kare kullanýlamaz hale
+geliyor (eleme sayýsý) bunu hesaplattýrabilirsiniz. Ýlk vezirinizi rastgele bir kareye
+yerleþtiriniz. Ardýndan bu problemi çözmek için aç gözlü (greedy) bir yaklaþým
+kullanabilirsiniz. Yani henüz yerleþmeyen vezirler için yerleþilme imkaný olan
+kareler arasýndan en düþük eleme sayýsýna sahip olan kareyi seçebilirsiniz.
+Programýnýzýn kodunun yaný sýra açýklamalarýnýn ve ekran çýktýlarýnýn bulunduðu
+ayrý bir rapor da hazýrlayýnýz. Programýnýz her seferinde toplamda 8 veziri
+yerleþtirmeyebilir. Örnek bir program çýktýsý þu þekilde olabilir:
+0 V . . . . . . .
+1 . . . . . . . V
+2 . . . . V . . .
+3 . V . . . . . .
+4 . . . V . . . .
+5 . . . . . . V .
+6 . . . . . . . .
+7 . . V . . . . .

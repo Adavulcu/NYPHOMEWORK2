@@ -1,0 +1,8 @@
+c:\users\apo\documents\visual studio 2015\Projects\14253024HW1\14253024HW1\bin\Debug\14253024HW1.exe.config
+c:\users\apo\documents\visual studio 2015\Projects\14253024HW1\14253024HW1\bin\Debug\14253024HW1.exe
+c:\users\apo\documents\visual studio 2015\Projects\14253024HW1\14253024HW1\bin\Debug\14253024HW1.pdb
+c:\users\apo\documents\visual studio 2015\Projects\14253024HW1\14253024HW1\obj\Debug\14253024HW1.csprojResolveAssemblyReference.cache
+c:\users\apo\documents\visual studio 2015\Projects\14253024HW1\14253024HW1\obj\Debug\14253024HW1.exe
+c:\users\apo\documents\visual studio 2015\Projects\14253024HW1\14253024HW1\obj\Debug\14253024HW1.pdb
+C:\Users\Apo\Documents\Visual Studio 2015\Projects\14253024HW1\14253024HW1\bin\Debug\Emoji.dll
+C:\Users\Apo\Documents\Visual Studio 2015\Projects\14253024HW1\14253024HW1\bin\Debug\Emoji.pdb
