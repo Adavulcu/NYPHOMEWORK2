@@ -58,7 +58,7 @@ namespace _14253024HW2
 
 
         }
-        private void top(int row, int coloum)//matristeki vezir indisinin yukarı bölgesindeki köşgenlerin engellendigi metot
+        private void top(int row, int coloum)//matristeki vezir indisinin yukarı bölgesindeki köşgenlerin sayısın tespit edildigi metot
         {
             int tempRow = row, tempColoum = coloum; ;
             while (true)//vezirin yukarı sol köşegeni
@@ -81,7 +81,7 @@ namespace _14253024HW2
                     counter++;
             }
         }
-        private void bot(int row, int coloum)//matristeki vezir indisinin asagı bölgesindeki köşgenlerin engellendigi metot
+        private void bot(int row, int coloum)//matristeki vezir indisinin asagı bölgesindeki köşgenlerin sayısın tespit edildigi metot
         {
             int tempRow = row, tempColoum = coloum; ;
             while (true)//vezirin asagı sol köşegeni
@@ -104,7 +104,7 @@ namespace _14253024HW2
                     counter++;
             }
         }
-        private void rowsAndColoums(int row, int coloum)//matristeki vezir indisinin satır ve sutunlarının engellendigi metot
+        private void rowsAndColoums(int row, int coloum)//matristeki vezir indisinin satır ve sutunlarının tespit edildigi metot
         {
             matrix[row, coloum] = 1;
             for (int i = 0; i < matrix.GetLength(0); i++)
