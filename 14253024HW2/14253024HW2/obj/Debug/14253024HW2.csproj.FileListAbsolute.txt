@@ -4,3 +4,9 @@ c:\users\apo\documents\visual studio 2015\Projects\14253024HW2\14253024HW2\bin\D
 c:\users\apo\documents\visual studio 2015\Projects\14253024HW2\14253024HW2\obj\Debug\14253024HW2.csprojResolveAssemblyReference.cache
 c:\users\apo\documents\visual studio 2015\Projects\14253024HW2\14253024HW2\obj\Debug\14253024HW2.exe
 c:\users\apo\documents\visual studio 2015\Projects\14253024HW2\14253024HW2\obj\Debug\14253024HW2.pdb
+C:\Users\Apo\Desktop\deneme\14253024HW2\14253024HW2\14253024HW2\bin\Debug\14253024HW2.exe.config
+C:\Users\Apo\Desktop\deneme\14253024HW2\14253024HW2\14253024HW2\obj\Debug\14253024HW2.exe
+C:\Users\Apo\Desktop\deneme\14253024HW2\14253024HW2\14253024HW2\obj\Debug\14253024HW2.pdb
+C:\Users\Apo\Desktop\deneme\14253024HW2\14253024HW2\14253024HW2\obj\Debug\14253024HW2.csprojResolveAssemblyReference.cache
+C:\Users\Apo\Desktop\deneme\14253024HW2\14253024HW2\14253024HW2\bin\Debug\14253024HW2.exe
+C:\Users\Apo\Desktop\deneme\14253024HW2\14253024HW2\14253024HW2\bin\Debug\14253024HW2.pdb

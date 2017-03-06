@@ -12,29 +12,46 @@ namespace _14253024HW2
         // 1 =) matris teki vezirin bulundugu yerler
         // 2 =) matris teki engellenen yerler
         int[,] mt = new int[8, 8];
-        string[,] array = new string[8, 8];
-        int row = 0;
+      
+        string[,] array = new string[8, 8];      
        public matrix( int coloum)
         {
             
+            int vizier = 1;
             matrixModify mm = new matrixModify(mt);
-            mm.modify(0,coloum);//ilk veziri burada atadım
-            FindMinScreenerIndex FMSI = new FindMinScreenerIndex(mt); 
+            mm.modify(0,coloum);//ilk veziri burada atadım          
             createArray();
-            for (int i = 1; i < 8; i++)
+            //burada ilk 4 veziri kendisidin bi alt satırına ve sag tafaına yerleştirdim
+            for (int i = 1; i < 4; i++)  
             {
                 System.Threading.Thread.Sleep(1000);
-                if (FMSI.emptySpaceControl())
-                {
-                    FMSI.find(ref row, ref coloum);
-                    mm.modify(row, coloum);
+                coloum =coloum+2;
+                    mm.modify(i, (coloum)%8);
+                vizier++;
                     Console.Clear();
                     createArray();
-                }
-                else
-                    break;
+               
             }
-
+           //burada ise en soldaki sutundan baslayarak aşagıya dogru inerken karsılastıgım ilk uygun yere veziri yerleştirdim
+            for (int i = 0; i < mt.GetLength(1); i++)
+            {
+                for (int j = 0; j < mt.GetLength(0); j++)
+                {
+                    if (mm.emptySpaceControl())
+                    {
+                        if (mt[j, i] == 0)
+                        {
+                            System.Threading.Thread.Sleep(1000);
+                            mm.modify(j, i);
+                            Console.Clear();
+                            createArray();
+                            vizier++;
+                        }
+                    }
+                }
+            }
+            Console.WriteLine("\n\n");
+            Console.WriteLine($"{vizier} adet Vezir yerleştirilmiştir");
 
         }
         public void display()// ekrana yazdırma metodu
@@ -85,6 +102,8 @@ namespace _14253024HW2
             }
             display();
         }
+         
+    
 
         
     }

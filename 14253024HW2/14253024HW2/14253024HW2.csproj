@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FindMinScreenerIndex.cs" />
     <Compile Include="matrix.cs" />
     <Compile Include="matrixModify.cs" />
     <Compile Include="Program.cs" />

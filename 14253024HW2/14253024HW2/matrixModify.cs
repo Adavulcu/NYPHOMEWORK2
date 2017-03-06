@@ -62,7 +62,7 @@ namespace _14253024HW2
                     matrix[tempRow, tempColoum] = 2;
             }
             tempRow = row; tempColoum = coloum;
-            while (true)//vezirin yukarı sag köşegeni
+            while (true)//vezirin asagı sag köşegeni
             {
                 if (tempRow > 6 || tempColoum >6)
                     break;
@@ -91,6 +91,18 @@ namespace _14253024HW2
 
             }
         }
-      
+        public bool emptySpaceControl()
+        {
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    if (matrix[i, j] == 0)
+                        return true;
+                }
+            }
+            return false;
+        }//bosta alan varmı diye kontrol eden metot
+
     }
 }
