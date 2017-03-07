@@ -12,7 +12,7 @@ namespace _14253024HW2
         {
             
             Random rnd = new Random();          
-           matrix mt = new matrix(rnd.Next(8));
+           matrix mt = new matrix(rnd.Next(8),rnd.Next(8));
 
         }
     }

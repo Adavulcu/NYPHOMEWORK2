@@ -14,19 +14,21 @@ namespace _14253024HW2
         int[,] mt = new int[8, 8];
       
         string[,] array = new string[8, 8];      
-       public matrix( int coloum)
+       public matrix(int row, int coloum)
         {
             
             int vizier = 1;
             matrixModify mm = new matrixModify(mt);
-            mm.modify(0,coloum);//ilk veziri burada atadım          
+            mm.modify(row,coloum);//ilk veziri burada atadım          
             createArray();
             //burada ilk 4 veziri kendisidin bi alt satırına ve sag tafaına yerleştirdim
             for (int i = 1; i < 4; i++)  
             {
                 System.Threading.Thread.Sleep(1000);
                 coloum =coloum+2;
-                    mm.modify(i, (coloum)%8);
+                row = row + 1;
+                mm.modify((row)%8, (coloum)%8);
+               
                 vizier++;
                     Console.Clear();
                     createArray();
